@@ -1,0 +1,213 @@
+
+/*mediaqueries*/
+@media (max-width: 800px){
+    header {
+        background-position: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar a {
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .principal {
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+
+/*ESTILOS COMUNES*/
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+/*ESTILO HEADER*/
+
+header {
+    padding: 60px;
+    text-align: center;
+    background-image: url(../img/vino-en-lata.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header div {
+    padding: 10px;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 1.1rem;
+}
+
+/*ESTILO NAVBAR*/
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #5DADE2;
+}
+
+
+
+
+    
+.navbar a {
+    color:blanchedalmond;
+    padding: 14px 20px;
+    text-decoration:none;
+
+}
+.navbar a:hover {
+    background-color: blue;
+}
+
+/*ESTILO PRINCIPAL*/
+.principal {
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+aside{
+    flex-basis: 25%;
+    padding: 20px;
+    background-color:#D7BDE2;
+}
+
+    .imagen img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        transition: 0.5 all ease-in-out;
+        
+    }
+    .imagen:hover img {
+        transform: scale(1.07);
+
+    }
+
+
+main {
+    flex-basis: 75%;
+   padding: 20px;
+    background-color:#F9E79F;
+
+}
+
+main h2 {
+    text-transform: uppercase;
+    margin-top: 40px;
+    color:black;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+}
+main .read-more {
+    background-color: #5DADE2;
+    color: #F9E79F;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+main .read-more:hover {
+    background-color: blue;
+}
+
+body .read-more:hover {
+    background-color: blue;
+
+
+    border-radius: 10px;
+    text-decoration: none;
+    color:#F9E79F ;
+    padding: 10px;
+    
+    
+}
+
+.see-more {
+    display: block;
+    background-color:#5DADE2 ;
+    color:#F9E79F ;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+main .see-more:hover {
+    background-color: blue;
+}
+
+/*footer*/
+ 
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color:beige;
+    width: 100%;
+    
+}
+
+
+ /*sintaxtis
+  selector {
+    propiedad:valor;
+  }
+  */
+
+  
+  
+  #colorverde {
+    color: black;
+  }
+
+  p{
+    color:black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.colordarkslategray {
+    color:black;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.colorsteelblue{
+    color: steelblue;
+    font-size: 30
+    px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.colorsienna {
+    color:black ;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
